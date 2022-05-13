@@ -1,4 +1,4 @@
-name: Geteway service CI
+name: Config server CI
 
 on:
   push:
