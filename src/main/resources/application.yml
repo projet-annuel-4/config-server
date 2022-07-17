@@ -30,7 +30,7 @@ eureka:
   instance:
     prefer-ip-address: true
   client:
-    service-url:
-      defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}
-    fetch-registry: true
     register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: ${DISCOVER_URL:http://discovery:8761}/eureka/

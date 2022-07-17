@@ -29,4 +29,4 @@ COPY --from=build ${DEPENDENCY}/BOOT-INF/classes /app
 
 
 #execute the application
-ENTRYPOINT ["java","-cp","app:app/lib/*","ConfigServerApplication"]
+ENTRYPOINT ["java","-cp","app:app/lib/*","fr/esgi/configserver/ConfigServerApplication"]
