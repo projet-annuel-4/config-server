@@ -17,7 +17,7 @@ spring:
         service-id: config-server
 
 server:
-  port: 8071
+  port: ${PORT:8071}
 
 #Enable all Spring Boot Actuator endpoints.
 management:
